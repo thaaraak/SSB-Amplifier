@@ -162,17 +162,6 @@ Wire Wire Line
 Connection ~ 3700 2900
 Wire Wire Line
 	3700 2900 3700 2750
-$Comp
-L Transistor_BJT:2N3904 Q2
-U 1 1 5F4C1CA5
-P 4200 3350
-F 0 "Q2" H 4400 3425 50  0000 L CNN
-F 1 "2SC5706" H 4400 3350 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 4400 3275 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4200 3350 50  0001 L CNN
-	1    4200 3350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 3350 4000 3350
 $Comp
@@ -290,17 +279,6 @@ F 1 "150pF" H 5000 2775 28  0000 C CNN
 F 2 "Xenir:Capacitor 0805" H 5000 2750 50  0001 C CNN
 F 3 "" H 5000 2750 50  0001 C CNN
 	1    5000 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:2N3904 Q3
-U 1 1 5F4D0368
-P 5600 2900
-F 0 "Q3" H 5800 2975 50  0000 L CNN
-F 1 "2SC5706" H 5800 2900 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 5800 2825 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5600 2900 50  0001 L CNN
-	1    5600 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -706,4 +684,26 @@ F 3 "" H 2900 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3000 3950
+$Comp
+L Xenir:2SC5706 Q2
+U 1 1 5F4BFFA7
+P 4200 3350
+F 0 "Q2" H 4400 3425 50  0000 L CNN
+F 1 "2SC5706" H 4400 3350 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 4400 3275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4200 3350 50  0001 L CNN
+	1    4200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenir:2SC5706 Q3
+U 1 1 5F4C0D4E
+P 5600 2900
+F 0 "Q3" H 5800 2975 50  0000 L CNN
+F 1 "2SC5706" H 5800 2900 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 5800 2825 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5600 2900 50  0001 L CNN
+	1    5600 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
